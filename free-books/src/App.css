@@ -1,0 +1,147 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e93030;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.search-bar {
+  flex: 1;
+  text-align: center;
+  width: 600px;
+  height: 30px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+}
+
+.register-button {
+  margin-right: 60px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+/* Add these styles to your App.css file */
+
+.registration-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.registration-form h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.registration-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form label {
+  margin: 10px 0;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.registration-form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Add these styles to your App.css file */
+
+.registration-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: table;
+  margin-left: 830px;
+  color: rgb(41, 18, 245);
+  font-weight: bold;
+}
+
+.registration-form h2 {
+  text-align: center;
+  color: #ff0000;
+}
+
+.registration-form form {
+  display: table-row-group;
+}
+
+.registration-form label {
+  display: table-row;
+  margin: 10px 0;
+}
+
+.registration-form input {
+  display: table-cell;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.registration-form button {
+  display: table-cell;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.book-list {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-item {
+  margin-left: 150px;
+  margin-bottom: 70px;
+  margin: 10px;
+  text-align: center;
+}
+
+.book-item img {
+  height: 300px;
+  width: 250px;
+}
